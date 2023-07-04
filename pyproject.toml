@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "addresses-heat-maps"
+version = "0.0.1"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "addresses_heat_maps"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+frozendict = "^2.3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
