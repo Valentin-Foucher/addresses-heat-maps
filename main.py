@@ -5,6 +5,7 @@ from addresses_heat_maps import config
 from addresses_heat_maps.db.core import init_db, Model
 
 from addresses_heat_maps.db.models import ChargingStation, Address
+from addresses_heat_maps.db.query import get_charging_stations_k_colouring_for_addresses
 from addresses_heat_maps.utils.db_utils import is_data_loaded, load_csv
 
 logging.basicConfig(level=logging.INFO)
@@ -31,3 +32,6 @@ if not data_loaded:
 
 else:
     logging.info('Data already loaded proceeding')
+
+
+print(get_charging_stations_k_colouring_for_addresses())

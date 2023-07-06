@@ -12,6 +12,7 @@ frozendict = "^2.3.8"
 sqlalchemy = "^2.0.17"
 pyyaml = "^6.0"
 psycopg2-binary = "^2.9.6"
+dask = "^2023.6.1"
 
 
 [build-system]
